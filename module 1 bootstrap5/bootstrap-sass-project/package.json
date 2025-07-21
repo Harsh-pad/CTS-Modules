@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-sass-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/custom-bootstrap.scss css/custom-bootstrap.css --no-source-map --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.0"
+  }
+}

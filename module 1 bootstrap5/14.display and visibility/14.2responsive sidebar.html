@@ -1,0 +1,32 @@
+<!-- File: responsive-sidebar.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Sidebar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar (visible on md and larger screens) -->
+      <aside class="col-md-3 col-lg-2 bg-dark text-white p-4 d-none d-md-block">
+        <h4>Sidebar</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Profile</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Settings</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="col-md-9 col-lg-10 p-4">
+        <h2>Main Content</h2>
+        <p>This section is always visible. The sidebar appears only on tablet-sized screens and larger (≥768px).</p>
+      </main>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Groups & Toggles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Button Groups & Toggle Buttons</h2>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6 text-center">
+        <h5>Standard Button Group</h5>
+        <div class="btn-group mt-2" role="group">
+          <button type="button" class="btn btn-primary">Left</button>
+          <button type="button" class="btn btn-primary">Middle</button>
+          <button type="button" class="btn btn-primary">Right</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h5>Toggle Buttons (Checkbox Style)</h5>
+        <div class="btn-group mt-3" role="group">
+          <input type="checkbox" class="btn-check" id="toggle1" autocomplete="off">
+          <label class="btn btn-outline-success" for="toggle1">Option 1</label>
+
+          <input type="checkbox" class="btn-check" id="toggle2" autocomplete="off">
+          <label class="btn btn-outline-success" for="toggle2">Option 2</label>
+
+          <input type="checkbox" class="btn-check" id="toggle3" autocomplete="off">
+          <label class="btn btn-outline-success" for="toggle3">Option 3</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

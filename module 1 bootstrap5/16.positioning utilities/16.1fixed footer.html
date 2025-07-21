@@ -1,0 +1,27 @@
+<!-- File: fixed-footer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Footer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-bottom: 60px; /* Prevent content from hiding behind the footer */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1>Page Content</h1>
+    <p>This is some page content. Scroll down to see the fixed footer stick to the bottom of the screen.</p>
+    <p>...</p>
+  </div>
+
+  <footer class="bg-dark text-white text-center p-3 position-fixed bottom-0 w-100">
+    &copy; 2025 Your Website. All rights reserved.
+  </footer>
+
+</body>
+</html>
